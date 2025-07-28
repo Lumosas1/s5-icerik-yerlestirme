@@ -9,3 +9,10 @@ logoImg.src = "./images/logo.webp";
 
 const ctaImg = document.getElementById("cta-img");
 ctaImg.src = "./images/cta-img.webp";
+
+const ctaDiv = document.querySelector(".cta-text");
+const ctaH1 = ctaDiv.querySelector("h1");
+const ctaButton = ctaDiv.querySelector("button");
+
+ctaH1.textContent = siteContent.cta.h1;
+ctaButton.textContent = siteContent.cta.button;
