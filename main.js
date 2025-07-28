@@ -6,3 +6,6 @@ console.log("Site içeriği", siteContent);
 
 const logoImg = document.getElementById("logo-img");
 logoImg.src = "./images/logo.webp";
+
+const ctaImg = document.getElementById("cta-img");
+ctaImg.src = "./images/cta-img.webp";
