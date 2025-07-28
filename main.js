@@ -22,3 +22,6 @@ const ctaButton = ctaDiv.querySelector("button");
 
 ctaH1.textContent = siteContent.cta.h1;
 ctaButton.textContent = siteContent.cta.button;
+
+const graphsImg = document.getElementById("middle-img");
+graphsImg.src = "./images/graphs.webp";
