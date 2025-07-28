@@ -7,6 +7,12 @@ console.log("Site içeriği", siteContent);
 const logoImg = document.getElementById("logo-img");
 logoImg.src = "./images/logo.webp";
 
+const navLinks = document.querySelectorAll("nav a");
+const navItems = Object.values(siteContent.nav);
+navItems.forEach((item, index) => {
+  navLinks[index].textContent = item;
+});
+
 const ctaImg = document.getElementById("cta-img");
 ctaImg.src = "./images/cta-img.webp";
 
